@@ -26,5 +26,8 @@ After that just add the callback method at your delegate class:
     
     
     
+You can read more about our solution at:
+http://www.kitlocate.com/developers/
+    
     
     
