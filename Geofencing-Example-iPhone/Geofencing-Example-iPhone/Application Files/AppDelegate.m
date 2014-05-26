@@ -16,8 +16,7 @@
     self.kitLocateTasker = [[LocationHandler alloc] init];
  
     // Init KitLocate framework
-#warning put your api key replace ENTER_YOUR_API_KEY with @"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-    [KitLocate initKitLocateWithDelegate:self.kitLocateTasker APIKey:ENTER_YOUR_API_KEY];
+    [KitLocate initKitLocateWithDelegate:self.kitLocateTasker APIKey:@"bd095083-eedc-4d92-b0c8-524feb5ba1f8"];
 
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
